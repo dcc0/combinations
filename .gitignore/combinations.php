@@ -8,8 +8,8 @@ $a = array(
 	5
 );
 
-$k = 2; /*Set a value*/
-$n = 5; /*Set a value*/
+$k = 2; /*Set a value. Ваше значение.*/
+$n = 5; /*Set a value. Ваше значение.*/
 
 
 /*We cut it for two arrays:
