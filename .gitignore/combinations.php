@@ -20,6 +20,8 @@ $n = 5; /*Set a value. Ваше значение.*/
 * С хранит остальные*/
 $c = array_splice($a, $k);
 $b = array_splice($a, 0, $k);
+
+/*Print first. Печтаем первое вне циклов (вот поэтому почти эвристика)*/
 print_r($b);
 
 while (1)
