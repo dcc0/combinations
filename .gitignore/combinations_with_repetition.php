@@ -21,7 +21,7 @@ while (1)
 
 		/*Found. Here we increase element per 1.
 		* Нашли. Увеличиваем на единицу.*/
-		$b[$k-1] = $b[$k-1] + 1;
+		$b[$k-1] +=  1;
 		print_r($b);
 		}
 
@@ -51,8 +51,8 @@ while (1)
 			$more_per_unit = array_search($b[$i] + 1, $c);
 			if ($more_per_unit !== false)
 				{
-				$c[$more_per_unit] = $c[$more_per_unit] - 1;
-				$b[$i] = $b[$i] + 1;
+				$c[$more_per_unit] -= 1;
+				$b[$i] += 1;
 
 
 				/*Перенос значений в С. Заполнение  массива B до K*.
