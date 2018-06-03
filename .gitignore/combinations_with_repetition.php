@@ -60,7 +60,6 @@ while (1)
 				for  ($j=$i; $j < $k-1; $j++) {
 				array_unshift ($c, $b[$j+1]);
 				$b[$j+1]=$b[$i];
-				$j++;
 				}
 
 
