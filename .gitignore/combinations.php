@@ -77,6 +77,8 @@ while (1)
 				*Here we transport elements to C and fill array B till K.*/
 				for ($j = $i; $j != $k - 1; $j++)
 					{
+					/*Добавим в начало массива. 
+					We add elements to beginning of the array*/
 					array_unshift($c, $b[$j + 1]);
 					$b[$j + 1] = $b[$j] + 1;
 					}
