@@ -58,8 +58,8 @@ while (1)
 				/*Перенос значений в С. Заполнение  массива B до K*.
 				*Here we transport elements to C and fill array B till K.*/
 				for  ($j=$i; $j < $k-1; $j++) {
-				/*Добавим в начало массива. 
-				We add elements to beginning of the array*/
+				/*Добавим элемент в начало массива C. 
+				We add element to beginning of the array C*/
 				array_unshift ($c, $b[$j+1]);
 				$b[$j+1]=$b[$i];
 				}
