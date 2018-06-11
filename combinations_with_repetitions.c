@@ -69,7 +69,7 @@ int main(int argc, char * argv[]) {
         return 0;
     }
 
-	int p = 1;
+ 	int p = 1;
 	int x = 0;
     int c[40]={0};
     int b[40]={0};
@@ -135,11 +135,11 @@ int main(int argc, char * argv[]) {
           /*Перенос значений в С. Заполнение  массива B до K*.
            *Here we transport elements to C and fill array B till K.*/
           for  (j=i; j < k-1; j++) {
-				/*Добавим элемент в начало массива C.
-				We add element to beginning of the array C*/
-				array_unshift (c, b[j+1]);
-				b[j+1]=b[i];
-				}
+		/*Добавим элемент в начало массива C.
+		We add element to beginning of the array C*/
+		array_unshift (c, b[j+1]);
+		b[j+1]=b[i];
+		}
 
           /*Удаление повторяющихся значений из C и печать.*
            * Here we remove duplicates out of C and print.*/
