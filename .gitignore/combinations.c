@@ -57,7 +57,7 @@ int main() {
   int n = 10; /*Set a value. Ваше значение*/
 
   int k = 5; /*Set a value. Ваше значение*/
-  /*You must fill the arrays below accoring n and k
+  /*You must fill the arrays below according n and k
    * Заполните массивы с и b относительно
    * установленных n и k*/
   int c[30] = {
