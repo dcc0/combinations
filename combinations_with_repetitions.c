@@ -4,7 +4,7 @@
    * Here we add element b to  array c*/
   int array_unshift(int * c, int b) {
     int j = 0;
-    for (j = 0; c[j] != 0; j++) c[j] = c[j];
+    for (j = 0; c[j] != 0; j++);
     c[j] = b;
   }
 
