@@ -117,7 +117,7 @@ int main(int argc, char * argv[]) {
 
       /*Просмотр массива справа налево.
        * Looking greater element (from right to left).*/
-      while (i >= -1) {
+      while (1) {
 
         /*Here we emulate "break 2" expression for exit.
          * Эмулируем конструкцию break 2 для выхода*/
