@@ -71,8 +71,8 @@ int main(int argc, char * argv[]) {
 
  	int p = 1;
 	int x = 0;
-    int c[40]={0};
-    int b[40]={0};
+    int c[100]={0};
+    int b[100]={0};
 	for (x=0; x!=k; x++) b[x] = 1;
 
 	for (x=0; x!=n; x++) c[x] = p++;
