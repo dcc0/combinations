@@ -60,7 +60,7 @@ int main() {
   /*You must fill the arrays below according n and k
    * Заполните массивы с и b относительно
    * установленных n и k*/
-  int c[30] = {
+  int c[100] = {
     1,
     2,
     3,
@@ -72,7 +72,7 @@ int main() {
     9,
     10
   };
-  int b[30] = {
+  int b[100] = {
     1,
     2,
     3,
